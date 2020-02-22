@@ -1,3 +1,5 @@
+export {};
+
 module.exports.healthChecks = (req: any, res: any) => {
     const healthCheck = {
         uptime: process.uptime(),

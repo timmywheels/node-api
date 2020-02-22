@@ -1,7 +1,7 @@
 {
-  "name": "siliconrhode-api",
+  "name": "node-api",
   "version": "1.0.0",
-  "description": "Silicon Rhode API",
+  "description": "Node API",
   "main": "index.js",
   "scripts": {
     "start": "ts-node server.ts",
@@ -11,20 +11,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timwheelercom/siliconrhode-api.git"
+    "url": "git+https://github.com/timwheelercom/node-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/timwheelercom/siliconrhode-api/issues"
+    "url": "https://github.com/timwheelercom/node-api/issues"
   },
-  "homepage": "https://github.com/timwheelercom/siliconrhode-api#readme",
+  "homepage": "https://github.com/timwheelercom/node-api#readme",
   "dependencies": {
+    "@types/cookie-session": "^2.0.38",
     "@types/express": "^4.17.2",
     "@types/node": "^13.1.4",
+    "@types/passport": "^1.0.2",
+    "aws-sdk": "^2.635.0",
+    "bcrypt": "^4.0.0",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.4.0",
     "express": "^4.17.1",
-    "mongoose": "^4.13.20",
+    "express-rate-limit": "^5.1.1",
+    "mongoose": "^5.9.2",
+    "mongoose-fuzzy-searching": "^1.1.9",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
     "prettier": "^1.19.1",
+    "shortid": "^2.2.15",
     "ts-node": "^8.5.4",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.4"

@@ -1,5 +1,6 @@
 # Config keys
  dev.js
+ dev.ts
 
 # dependencies
 /node_modules
